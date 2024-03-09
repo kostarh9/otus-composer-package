@@ -1,20 +1,22 @@
 
-# Процессор строк
+# Field Validation
 
-Краткое описание пакета
+Валидация полей формы
 
 ## Требования
 - PHP 7.4
 
 ## Установка
 ```bash
-composer require dmitrikirillov/otus-composer-package
+composer require kostarh9/otus-composer-package
 ```
 
 ### Использование
 
 ```php
 <?php
-$processor = new StringProcessor();
-echo $processor->getLength('my string')
+$fieldValidation = new FieldValidation();
+if($fieldValidation->phoneIsValid('2-19-65') {
+    // do something
+}
 ```
