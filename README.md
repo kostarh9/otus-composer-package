@@ -16,7 +16,7 @@ composer require kostarh9/otus-composer-package
 ```php
 <?php
 $fieldValidation = new FieldValidation();
-if($fieldValidation->phoneIsValid('2-19-65') {
+if($fieldValidation->phoneIsValid('2-19-65')) {
     // do something
 }
 ```
