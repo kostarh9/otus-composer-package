@@ -6,5 +6,7 @@
             "Kostarh9\\OtusComposerPackage\\": "src/"
         }
     },
-    "require": {}
+    "require": {
+        "php" : "^7.4"
+    }
 }
